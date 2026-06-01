@@ -1,1 +1,29 @@
-/* Add Button styles here */
+.btn {
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: blue;
+  color: white;
+}
+
+.btn-secondary {
+  background: gray;
+  color: white;
+}
+
+.btn-danger {
+  background: red;
+  color: white;
+}
+
+.btn-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-loading {
+  opacity: 0.8;
+}
