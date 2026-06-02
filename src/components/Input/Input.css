@@ -1,1 +1,14 @@
-/* Add Input styles here */
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.input-error {
+  border: 1px solid red;
+}
+
+.input-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
